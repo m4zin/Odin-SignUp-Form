@@ -29,38 +29,38 @@
                     <h3>Let's do this!</h3>
                     <div class="names-class">
                         <div class="first-name-class">
-                            <label for="first_name">FIRST NAME</label>
+                            <label for="first_name">FIRST NAME *</label>
                             <br>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" required pattern="[a-zA-Z]+" placeholder="John">
                         </div>
                         <div class="last-name-class">
-                            <label for="last_name">LAST NAME</label>
+                            <label for="last_name">LAST NAME *</label>
                             <br>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" required placeholder="Doe">
                         </div>
                     </div>
                     <div class="email-and-phone-class">
                         <div class="email-class">
-                            <label for="email">EMAIL</label>
+                            <label for="email">EMAIL *</label>
                             <br>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required placeholder="JohnDoe@gmail.com">
                         </div>
                         <div class="phone-class">
-                            <label for="phone">PHONE NUMBER</label>
+                            <label for="phone">PHONE NUMBER (Optional)</label>
                             <br>
-                            <input type="tel" name="phone" id="phone">
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]+">
                         </div>
                     </div>
                     <div class="passowrd-class">
                         <div class="password-class">
-                            <label for="password">PASSWORD</label>
+                            <label for="password">PASSWORD *</label>
                             <br>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </div>
                         <div class="confirm-password-class">
-                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <label for="confirm_password">CONFIRM PASSWORD *</label>
                             <br>
-                            <input type="password" name="confirm_password" id="confirm_password">
+                            <input type="password" name="confirm_password" id="confirm_password" required>
                         </div>
                     </div>
                 </form>

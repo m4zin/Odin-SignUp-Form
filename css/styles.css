@@ -90,7 +90,7 @@ body {
 }   
 
 .side-image-and-form-class .form-class .middle-form-class .midformclass-div div div label {
-    font-size: 10px;
+    font-size: 12px;
 }  
 
 .side-image-and-form-class .form-class .middle-form-class .midformclass-div div div input {
@@ -99,6 +99,15 @@ body {
     border-radius: 5px;
     height: 25px;
     width: 200px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.side-image-and-form-class .form-class .middle-form-class .midformclass-div div div input:invalid {
+    border: 1.5px solid red;
+}
+
+.side-image-and-form-class .form-class .middle-form-class .midformclass-div div div input:valid {
+    border: 2px solid blue;
 }
 
 .side-image-and-form-class .form-class .bottom-button-class {
